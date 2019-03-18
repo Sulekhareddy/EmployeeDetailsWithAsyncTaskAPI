@@ -36,7 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/employee_button"
-            tools:listitem="@layout/recycler_view_item">
+            tools:listitem="@layout/recycler_view_item_1">
 
         </android.support.v7.widget.RecyclerView>
 

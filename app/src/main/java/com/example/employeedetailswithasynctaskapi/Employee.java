@@ -12,8 +12,9 @@ public class Employee {
 
         private String profileImage;
 
-        public Employee(String employeeName){
+        public Employee(String employeeName, String employeeSalary){
             this.employeeName = employeeName;
+            this.employeeSalary = employeeSalary;
         }
 
         public String getId() {

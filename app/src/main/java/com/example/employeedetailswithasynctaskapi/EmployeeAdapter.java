@@ -18,7 +18,7 @@ public class EmployeeAdapter extends RecyclerView.Adapter<EmployeeViewHolder> {
     public EmployeeViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int position) {
 
         LayoutInflater layoutInflater = LayoutInflater.from(viewGroup.getContext());
-        View view = layoutInflater.inflate(R.layout.recycler_view_item, viewGroup, false);
+        View view = layoutInflater.inflate(R.layout.recycler_view_item_1, viewGroup, false);
         return new EmployeeViewHolder(view);
     }
 

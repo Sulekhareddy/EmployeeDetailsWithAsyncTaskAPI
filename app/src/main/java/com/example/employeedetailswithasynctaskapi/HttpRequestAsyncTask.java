@@ -95,7 +95,8 @@ public class HttpRequestAsyncTask extends AsyncTask<String, Void, List<Employee>
 
     private Employee convertTodo(JSONObject jsonObject) throws JSONException {
         String employeeName = jsonObject.getString("employee_name");
-        return new Employee(employeeName);
+        String employeeSalary = jsonObject.getString("employee_salary");
+        return new Employee(employeeName, employeeSalary);
     }
 
     @Override
